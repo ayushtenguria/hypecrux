@@ -8,14 +8,22 @@
 }
 @font-face {
   font-family: "hypecrux2";
-  src: url(./assets/aileron.zip);
+  src: url(./assets/Aileron-Black.otf);
 }
 @font-face {
   font-family: "hypecrux3";
   src: url(./assets/league-spartan.zip);
 }
 
+/* @font-face {
+  font-family: "CustomFont";
+  src: url("/fonts/CustomFont.woff2") format("woff2");
+} */
+
 * {
-  font-family: hypecrux, hypecrux2, hypecrux3;
-  
+  font-family: hypecrux;
+}
+
+.fontAileron {
+  font-family: hypecrux2;
 }

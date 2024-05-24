@@ -10,7 +10,7 @@ export const WhoWeAre = () => {
         </div>
         <div className="md:w-[35rem] p-10 md:p-0 space-y-5">
           <p className="text-7xl md:text-[8rem]  text-orange-600">WHO WE ARE ?</p>
-          <p className="text-3xl tracking-wide">
+          <p className="text-xl text-justify fontAileron tracking-wide">
             Welcome to HypeCrux, where we fuel the flames of excitement, ignite
             the spark of anticipation, and harness the power of hype to elevate
             brands to new heights. We specialize in the art of creating buzz,
