@@ -13,8 +13,7 @@ function App() {
       <WhoWeAre />
       <OfflineService />
       <OnlineService />
-      <OurClient />
-      
+      <OurClient />      
       <Tagline />
       <ConstactUs />
     </div>

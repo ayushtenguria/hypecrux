@@ -6,9 +6,9 @@ export const ConstactUs = () => {
     <>
       <footer className="flex flex-col justify-center mt-20 items-center ">
         <div>
-          <p className="font-bold text-7xl uppercase">Contact Us</p>
+          <p className="font-bold text-4xl md:text-7xl uppercase">Contact Us</p>
         </div>
-        <div className="flex justify-between items-center space-x-40 mt-10">
+        <div className="flex flex-col md:flex-row justify-between items-center md:space-x-40 mt-10">
           <div>
             <img src={Image} alt="Logo" />
           </div>

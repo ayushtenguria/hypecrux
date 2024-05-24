@@ -10,10 +10,10 @@ export const OnlineService = () => {
   return (
     <>
       <section className="py-32 flex flex-col justify-center items-center">
-        <p className="text-7xl uppercase font-bold">online services</p>
+        <p className="text-4xl md:text-7xl uppercase font-bold">online services</p>
 
         <div className="space-y-16">
-          <div className="flex justify-center items-center space-x-7 py-10">
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-7 py-10">
             <ServiceCard
               logo={influencer}
               description={"Influencer Marketing"}
@@ -27,7 +27,7 @@ export const OnlineService = () => {
               description={"Performance Marketing"}
             />
           </div>
-          <div className="flex justify-center items-center space-x-7 py-10">
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-7 py-10">
             <ServiceCard
               logo={tradeShow}
               description={"Social Media Creatives & ads"}
