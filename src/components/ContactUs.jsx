@@ -19,11 +19,11 @@ export const ConstactUs = () => {
                 <p>123 Anywhere St. Any City, ST 12345</p>
               </li> */}
               <li>
-                <p className="text-gray-400 font-semibold">Phone Number</p>
+                <p className="text-orange-600 font-semibold">Phone Number</p>
                 <p>+91-7668201298</p>
               </li>
               <li>
-                <p className="text-gray-400 font-semibold">Email Address</p>
+                <p className="text-orange-600 font-semibold">Email Address</p>
                 <p>hypecruxx@gmail.com</p>
               </li>
             </ul>
