@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "hypecrux";
-  src: url(./assets/extenda.zip);
+  src: url(./assets/extenda-30-deca.otf);
 }
 @font-face {
   font-family: "hypecrux2";
@@ -17,4 +17,5 @@
 
 * {
   font-family: hypecrux, hypecrux2, hypecrux3;
+  
 }
