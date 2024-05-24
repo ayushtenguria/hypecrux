@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "hypecrux";
+  src: url(./assets/extenda.zip);
+}
+@font-face {
+  font-family: "hypecrux2";
+  src: url(./assets/aileron.zip);
+}
+@font-face {
+  font-family: "hypecrux3";
+  src: url(./assets/league-spartan.zip);
+}
+
+* {
+  font-family: hypecrux, hypecrux2, hypecrux3;
+}
