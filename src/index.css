@@ -15,10 +15,6 @@
   src: url(./assets/league-spartan.zip);
 }
 
-/* @font-face {
-  font-family: "CustomFont";
-  src: url("/fonts/CustomFont.woff2") format("woff2");
-} */
 
 * {
   font-family: hypecrux;
@@ -26,4 +22,36 @@
 
 .fontAileron {
   font-family: hypecrux2;
+}
+
+/* Keyframes for fade-in animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Classes to apply the animations */
+.fade-in-left {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-in-out;
 }
