@@ -85,12 +85,12 @@ const PopupForm = ({ onClose }) => {
             />
           </svg>
         </button>
-        <h2 className="text-4xl  mb-4 text-white">
+        <h2 className="text-xl fontAileron tracking-wide mb-4 text-white">
           Get in Touch with Us
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-3xl  text-white">
+            <label className="block text-xl fontAileron tracking-wide text-white">
               Name *
             </label>
             <input
@@ -105,7 +105,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-3xl  text-white">
+            <label className="block text-xl fontAileron tracking-wide text-white">
               Business Name *
             </label>
             <input
@@ -122,7 +122,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-3xl  text-white">
+            <label className="block text-xl fontAileron tracking-wide text-white">
               Contact No *
             </label>
             <input
@@ -139,7 +139,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-3xl  text-white">
+            <label className="block text-xl fontAileron tracking-wide text-white">
               Email *
             </label>
             <input
@@ -154,7 +154,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-3xl  text-white">
+            <label className="block text-xl fontAileron tracking-wide text-white">
               Message
             </label>
             <textarea
