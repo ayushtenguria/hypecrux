@@ -24,10 +24,12 @@ export const ConstactUs = () => {
               </li>
               <li>
                 <p className="text-orange-600 ">Email Address</p>
-                <p>hypecruxx@gmail.com</p>
+                <a href="mailto:hypecruxx@gmail.com">
+                  <p>hypecruxx@gmail.com</p>
+                </a>
               </li>
             </ul>
-            <ContactUsButton/>
+            <ContactUsButton />
           </div>
         </div>
       </footer>
