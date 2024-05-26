@@ -64,7 +64,7 @@ const PopupForm = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
+    <div className="fixed top-0 fontAileron left-0 w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
       <div className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-8 min-w-[45rem] shadow-lg">
         <button
           onClick={onClose}
@@ -85,12 +85,12 @@ const PopupForm = ({ onClose }) => {
             />
           </svg>
         </button>
-        <h2 className="text-2xl font-semibold mb-4 text-white">
+        <h2 className="text-4xl  mb-4 text-white">
           Get in Touch with Us
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-white">
+            <label className="block text-3xl  text-white">
               Name *
             </label>
             <input
@@ -105,7 +105,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-white">
+            <label className="block text-3xl  text-white">
               Business Name *
             </label>
             <input
@@ -122,7 +122,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-white">
+            <label className="block text-3xl  text-white">
               Contact No *
             </label>
             <input
@@ -139,7 +139,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-white">
+            <label className="block text-3xl  text-white">
               Email *
             </label>
             <input
@@ -154,7 +154,7 @@ const PopupForm = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-white">
+            <label className="block text-3xl  text-white">
               Message
             </label>
             <textarea
