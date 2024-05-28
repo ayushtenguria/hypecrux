@@ -2,6 +2,7 @@ import Image from "../assets/logo_crux-removebg-preview.png";
 import ContactUsButton from "./ContactUsButton";
 
 export const ConstactUs = () => {
+  const year = new Date().getFullYear();
   return (
     <>
       <footer className="flex flex-col justify-center mt-20 items-center ">
@@ -31,6 +32,20 @@ export const ConstactUs = () => {
             </ul>
             <ContactUsButton />
           </div>
+        </div>
+        <div className="py-2 flex flex-col justify-center items-center">
+          <p className="text-4xl block">©{year}, HypeCrux Inc.</p>
+          <p className="text-4xl">
+            Made with
+            <span className="text-2xl">
+
+             ❤️ 
+            </span>
+             by 
+            <spane>
+              <a href="https://hacktigerlabs.vercel.app/"> HackTiger Labs</a>
+            </spane>
+          </p>
         </div>
       </footer>
     </>
