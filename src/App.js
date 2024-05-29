@@ -37,12 +37,12 @@ function App() {
     <div className="min-h-screen text-white bg-black relative overflow-hidden">
       <div className="relative min-h-screen bg-starry bg-opacity-10">
         <Header />
-        // <WhoWeAre />
-        // <OfflineService />
-        // <OnlineService />
-        // <OurClient />
-        // <Tagline />
-        // <ConstactUs />
+        <WhoWeAre />
+        <OfflineService />
+        <OnlineService />
+        <OurClient />
+        <Tagline />
+        <ConstactUs />
       </div>
     </div>
   );
