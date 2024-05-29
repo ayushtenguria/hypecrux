@@ -1,19 +1,16 @@
 import { ServiceCard } from "./ServiceCard";
-import tradeShow from "../assets/HearWindow.png";
-import digitalMarketing from "../assets/Network.png";
-import performance from "../assets/Triangle.png";
-import searchGlass from "../assets/SearchGlass.png";
-import webDesign from "../assets/brushScreen.png";
+import tradeShow from "../assets/HearWindow.webp";
+import digitalMarketing from "../assets/Network.webp";
+import performance from "../assets/Triangle.webp";
+import searchGlass from "../assets/SearchGlass.webp";
+import webDesign from "../assets/brushScreen.webp";
 import influencer from "../assets/Speaker.png";
-
-
 
 export const OnlineService = () => {
   return (
     <>
-      <section className="py-32 flex flex-col justify-center items-center">
-        <p className="text-7xl md:text-[7rem]  uppercase ">online services</p>
-
+      <section className="py-32 flex flex-col justify-center items-center -mt-40 md:mt-0">
+        <p className="text-7xl md:text-[7rem] mb-10 uppercase ">online services</p>
         <div className="space-y-16">
           <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 justify-center items-center md:px-10 space-x-7 py-10">
             <ServiceCard
