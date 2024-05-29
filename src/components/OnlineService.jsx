@@ -15,7 +15,7 @@ export const OnlineService = () => {
         <p className="text-7xl md:text-[7rem]  uppercase ">online services</p>
 
         <div className="space-y-16">
-          <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 justify-center items-center px-10 space-x-7 py-10">
+          <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 justify-center items-center md:px-10 space-x-7 py-10">
             <ServiceCard
               logo={influencer}
               description={"Influencer Marketing"}

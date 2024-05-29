@@ -13,7 +13,7 @@ export const OfflineService = () => {
         <p className="text-7xl md:text-[7rem] uppercase ">offline services</p>
 
         <div className="space-y-16">
-          <div className="flex flex-col md:flex-row justify-center items-center space-x-7 py-10">
+          <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 justify-center items-center space-x-7 py-10">
             <ServiceCard logo={youth} description={"Youth Marketing"} />
             <ServiceCard logo={eventBrand} description={"Event Branding"} />
             <ServiceCard logo={inStore} description={"In-Store Event"} />
