@@ -6,6 +6,8 @@ import searchGlass from "../assets/SearchGlass.png";
 import webDesign from "../assets/brushScreen.png";
 import influencer from "../assets/Speaker.png";
 
+
+
 export const OnlineService = () => {
   return (
     <>
@@ -13,7 +15,7 @@ export const OnlineService = () => {
         <p className="text-7xl md:text-[7rem]  uppercase ">online services</p>
 
         <div className="space-y-16">
-          <div className="flex flex-col md:flex-row justify-center items-center space-x-7 py-10">
+          <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 justify-center items-center px-10 space-x-7 py-10">
             <ServiceCard
               logo={influencer}
               description={"Influencer Marketing"}

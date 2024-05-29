@@ -32,7 +32,11 @@ function App() {
     //   <OurClient />
     //   <Tagline />
     //   <ConstactUs />
-    // </div>
+    // </div> 
+    // brand slider 
+    // qoute ke beech ka space
+    // offline serivce card space = y axis
+// mobile view 2 service
 
     <div className="min-h-screen text-white bg-black relative overflow-hidden">
       <div className="relative min-h-screen bg-starry bg-opacity-10">
