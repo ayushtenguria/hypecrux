@@ -5,16 +5,16 @@ export const ConstactUs = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <footer className="flex flex-col justify-center mt-20 items-center ">
+      <footer className="flex flex-col justify-center mt-5 md:mt-20 items-center ">
         <div>
           <p className=" text-7xl md:text-[8rem] uppercase">Contact Us</p>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center md:space-x-40 mt-10">
-          <div>
+        <div className="flex flex-row justify-between items-center space-x-10 md:space-x-40 mt-10">
+          <div className="w-[30vw]">
             <img src={Image} alt="Logo" />
           </div>
           <div>
-            <ul className="text-5xl md;text-6xl flex flex-col space-y-5 justify-between ">
+            <ul className="text-4xl  md:text-6xl flex flex-col space-y-3 justify-center ">
               {/* <li>
                 <p className="text-gray-400 font-semibold">Mailing Address</p>
                 <p>123 Anywhere St. Any City, ST 12345</p>
@@ -30,10 +30,12 @@ export const ConstactUs = () => {
                 </a>
               </li>
             </ul>
-            <ContactUsButton />
+            <div className="-mt-5">
+              <ContactUsButton />
+            </div>
           </div>
         </div>
-        <div className="py-2 flex flex-col justify-center items-center">
+        {/* <div className="py-2 flex flex-col justify-center items-center">
           <p className="text-4xl block">©{year}, HypeCrux Inc.</p>
           <p className="text-4xl">
             Made with
@@ -46,7 +48,7 @@ export const ConstactUs = () => {
               <a href="https://hacktigerlabs.vercel.app/"> HackTiger Labs</a>
             </spane>
           </p>
-        </div>
+        </div> */}
       </footer>
     </>
   );
