@@ -12,7 +12,7 @@ function ContactUsButton() {
   return (
     <>
       <div className="mt-10">
-        <button onClick={togglePopup} className="px-1 text-2xl  bg-orange-600 hover:bg-orange-700 rounded-lg py-1">
+        <button onClick={togglePopup} className="px-1 text-3xl  bg-orange-600 hover:bg-orange-700 rounded-lg py-1">
           Connect with us
         </button>
         {showPopup && <PopupForm onClose={() => setShowPopup(false)} />}
